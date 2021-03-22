@@ -6,8 +6,8 @@ namespace App;
 
 class Greeter
 {
-    public static function greet(string $name): string
+    public static function greet(): string
     {
-        return "Hello ${name}!";
+        return 'Hello, World!';
     }
 }

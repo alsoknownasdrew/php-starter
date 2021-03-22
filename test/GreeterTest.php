@@ -11,6 +11,6 @@ class GreeterTest extends TestCase
 {
     public function testGreetsName(): void
     {
-        self::assertSame('Hello World!', Greeter::greet('World'));
+        self::assertSame('Hello, World!', Greeter::greet());
     }
 }
